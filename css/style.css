@@ -1,0 +1,126 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* *** IGNORE - POSSIBLE BACKUP CSS *** */
+
+/* Box Model Hack */
+/* *{
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+} */
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* body {
+  font-size: 16px;
+  font-family: 'Josefin Slab';
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navbar > #header {
+  font-size: 5rem;
+  max-width: 90%;
+  text-align: center;
+  line-height: 4.5rem;
+  padding: 1rem 0;
+}
+.navbar > span {
+  font-size: 1rem;
+  max-width: 90%;
+  text-align: center;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test > h2{
+  border: none;
+} */
+
+
+/* *** IGNORE - POSSIBLE BACKUP CSS *** */
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#recipeContainer {
+  margin-top: 20px;
+  display: none;
+  text-align: left;
+}
+
+#recipeImage {
+  margin-top: 10px;
+  border-radius: 8px;
+}
