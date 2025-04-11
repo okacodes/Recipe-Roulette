@@ -16,10 +16,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
 	</head>
-	<body>
 		<body>
 			<div class="container">
-			  <h1>Random Recipe Finder</h1>
+			  <h1>Recipe Roulette</h1>
 			  <p>Enter ingredients you have, separated by commas (e.g., chicken, rice, broccoli).</p>
 		  
 			  <input type="text" id="ingredients" placeholder="Enter ingredients">
@@ -28,6 +27,11 @@
 			  <div id="recipeContainer">
 				<h2 id="recipeTitle"></h2>
 				<img id="recipeImage" src="" alt="" style="width: 100%; max-height: 400px; object-fit: cover;">
+
+				<p><strong>Ingredients</strong></p>
+				<ul id="recipeIngredients"></ul>
+
+				<p><strong>Recipe</strong></p>
 				<p id="recipeInstructions"></p>
 			  </div>
 			</div>
